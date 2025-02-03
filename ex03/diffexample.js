@@ -25,7 +25,7 @@ for (var i = 0, l = obj.length; i < l; i++) {
 
   //check if item has a creditcard then save the :name and :creditcard to the cvs object in the cvs format
   if(item.creditcard != null && item.email != null){
-    csv += item.name + "," + item.creditcard+ "\n";
+    csv += item.name + "," + item.creditcard + "," + item.email + "\n";
   }
 }
 
